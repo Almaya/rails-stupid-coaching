@@ -1,0 +1,15 @@
+<figure class="note note-primary p-4">
+  <blockquote class="blockquote mx-3">
+    <p class="fs-4"><%= @question %></p>
+    <footer class="blockquote-footer fs-6 fst-italic">You</footer>
+  </blockquote>
+</figure>
+<figure class="note note-success p-4">
+  <blockquote class="blockquote mx-3">
+    <p class="fs-4"><%= @answer %></p>
+    <footer class="blockquote-footer fs-6 fst-italic">Coach</footer>
+  </blockquote>
+</figure>
+<div class="mx-3">
+  <%= link_to "Ask another question", ask_path %>
+</div>
